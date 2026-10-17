@@ -1,0 +1,9 @@
+ scenario               group  return_mean  return_std_across_seeds  success_rate  mean_abs_torque
+  nominal      Swing-up + PID      -161.36                      NaN          1.00             0.25
+  nominal SAC (mean of seeds)      -154.66                     0.46          1.00             0.41
+mass x0.7      Swing-up + PID      -126.88                      NaN          1.00             0.17
+mass x0.7 SAC (mean of seeds)      -126.88                     1.92          1.00             0.66
+mass x1.5      Swing-up + PID      -229.29                      NaN          1.00             0.40
+mass x1.5 SAC (mean of seeds)      -221.10                     2.54          1.00             0.61
+noisy obs      Swing-up + PID      -161.87                      NaN          1.00             1.15
+noisy obs SAC (mean of seeds)      -160.81                     4.97          0.87             1.52
